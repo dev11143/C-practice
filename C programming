@@ -141,4 +141,27 @@ int main()
     
 
 return 0;}
+//To Find the 2nd largest program
+#include <stdio.h>
+
+int secondLargest(int a, int b, int c)
+{
+    if ((a > b && a < c) || (a < b && a > c))
+        return a;
+    else if ((b > a && b < c) || (b < a && b > c))
+        return b;
+    else
+        return c;
+}
+
+int main()
+{
+    int a, b, c;
+
+    printf("Enter any three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    printf("The second largest number is: %d\n", secondLargest(a, b, c));
+
+    return 0;
+}
     
