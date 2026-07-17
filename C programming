@@ -10,3 +10,17 @@ int main()
     return 0;
 
 }
+
+Modification
+// same program but different function 
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    sum=a-b;
+    printf("sum=%d",sum);
+    return 0;
+
+}
