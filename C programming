@@ -61,4 +61,18 @@ int main()
     return 0;
 
 }
+//Finding Average
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    sum=(a+b)/2;
+    printf("sum=%d",sum);
+    return 0;
+
+}
+
+}
 
